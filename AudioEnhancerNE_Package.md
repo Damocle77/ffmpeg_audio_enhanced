@@ -8,9 +8,9 @@ Gli script qui presenti elaborano l'audio multicanale 5.1 per migliorarne:
 
 Ogni versione ha una funzione specifica:
 
-> Clearvoice 5.1: Potenzia i dialoghi mantenendo il mix originale
-> Virtual Height 5.1.2: Aggiunge 2 canali "height" simulati per effetto Atmos verticale
-> Phantom Atmos 7.1.2: Simula un mix completo con surround posteriore + height
+- Clearvoice 5.1: Potenzia i dialoghi mantenendo il mix originale
+- Virtual Height 5.1.2: Aggiunge 2 canali "height" simulati per effetto Atmos verticale
+- Phantom Atmos 7.1.2: Simula un mix completo con surround posteriore + height
 
 La normalizzazione finale (LOUDNORM) può essere abilitata o disabilitata:
 - ON  = Uniforma il volume tra film diversi (consigliato per playlist)
