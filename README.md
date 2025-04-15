@@ -64,7 +64,29 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 
 ✨ Powered by FFmpeg, scritto con amore, testato su un sistema 5.1.2 con attenzione alla lingua italiana e ai dialoghi dei film.
 
-Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda video ARC o Radeon il parametro haccel va modificato:
--haccel cuda  -hwaccel dxva2  -hwaccel qsv     
+## 🔧 Compatibilità hardware e sistema operativo
 
-Questi script sono ottimizzati per Windows, necessario installare ffmpeg sul Sistema e preferibile l'inserimento nelle variabili di ambiente (Environment).
+> Questi script sono ottimizzati per **sistemi Windows** con **schede NVIDIA**.
+
+### 🎮 Accelerazione hardware (video decoding)
+Per massima velocità, è raccomandato l’uso di un acceleratore video hardware.  
+Il parametro `-hwaccel` può essere modificato in base alla scheda video:
+
+| Scheda Video     | Parametro da usare           |
+|------------------|------------------------------|
+| NVIDIA           | `-hwaccel cuda`              |
+| AMD Radeon       | `-hwaccel dxva2`             |
+| Intel (iGPU / ARC)| `-hwaccel qsv`              |
+
+⚠️ **Nota**: L'accelerazione hardware è usata solo per il **decoding video**.  
+L'elaborazione audio viene sempre eseguita via **CPU**.
+
+---
+
+### 🖥️ Requisiti di sistema
+
+- **Sistema operativo**: Windows 10/11 (consigliato)
+- **FFmpeg**: deve essere installato manualmente
+- È **fortemente consigliato** aggiungere `ffmpeg` alle **variabili d'ambiente (PATH)** per poter eseguire gli script da qualsiasi cartella
+
+---
