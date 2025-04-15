@@ -65,8 +65,6 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 ✨ Powered by FFmpeg, scritto con amore, testato su un sistema 5.1.2 con attenzione alla lingua italiana e ai dialoghi dei film.
 
 Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda video ARC o Radeon il parametro haccel va modificato:
--haccel cuda
--hwaccel dxva2   
--hwaccel qsv     
+-haccel cuda  -hwaccel dxva2  -hwaccel qsv     
 
 Questi script sono ottimizzati per Windows, necessario installare ffmpeg sul Sistema e preferibile l'inserimento nelle variabili di ambiente (Environment).
