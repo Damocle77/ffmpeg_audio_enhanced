@@ -25,8 +25,10 @@ Compatibilità consigliata: NVIDIA Shield, Plex, VLC, lettori Dolby Digital+
 Script nerd-approved. Per uso personale e divulgazione tra amanti del buon audio.
 
 NB. Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda video ARC o
-    Radeon il parametro -haccel cuda va sostituito con -hwaccel dxva2 per AMD o -hwaccel qsv
-    per Intel (l'accelerazione dei core grafici accelera i processi di encoding e deconding).
+    Radeon il parametro -haccel cuda 	va sostituito con 
+			-hwaccel dxva2 	per AMD o 
+			-hwaccel qsv 	per Intel 
+   (l'accelerazione dei core grafici accelera i processi di encoding e deconding).
 
 PS. Questi script sono ottimizzati per Windows, necessario installare ffmpeg sul Sistema e
     preferibile l'inserimento nelle variabili di ambiente (Environment).
