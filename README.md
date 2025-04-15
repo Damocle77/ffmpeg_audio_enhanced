@@ -1,5 +1,3 @@
-#ffmpeg audio enhanced (Nerd Edition)
-
 # 🎧 Audio Enhancement Scripts – FFmpeg Nerd Edition
 
 Una collezione di script FFmpeg per l'elaborazione audio multicanale 5.1 avanzata, progettata per migliorare **chiarezza dei dialoghi**, **spazialità surround** e simulazione **Atmos verticale**, mantenendo compatibilità massima con dispositivi comuni (TV, soundbar, lettori, Plex, Shield, ecc.).
@@ -64,7 +62,7 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 
 ---
 
-> ✨ Powered by FFmpeg, scritto con amore, testato su un sistema 5.1.2 con attenzione alla lingua italiana e ai dialoghi dei film.
+✨ Powered by FFmpeg, scritto con amore, testato su un sistema 5.1.2 con attenzione alla lingua italiana e ai dialoghi dei film.
 
 NB. Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda video ARC o
     Radeon il parametro -haccel cuda va sostituito con -hwaccel dxva2 per AMD o -hwaccel qsv
