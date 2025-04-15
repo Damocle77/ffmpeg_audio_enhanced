@@ -1,32 +1,28 @@
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: NOTE TECNICHE - COSA FANNO QUESTI SCRIPT?
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+NOTE TECNICHE - COSA FANNO QUESTI SCRIPT?
 
-:: Gli script qui presenti elaborano l'audio multicanale 5.1 per migliorarne:
-:: - La CHIAREZZA DEI DIALOGHI (filtri speechnorm, equalizer, compressori)
-:: - L'IMMERSIONE (stereowiden, echo, phaser, surround migliorato)
-:: - L'EFFETTO VERTICALE (Virtual Height 5.1.2 e Phantom Atmos 7.1.2 simulano speaker alti)
-:: - La GESTIONE DEI BASSI (LFE migliorato con equalizer e asubboost)
-::
-:: Ogni versione ha una funzione specifica:
-:: --------------------------------------------------------------------------------------------
-:: > Clearvoice 5.1: Potenzia i dialoghi mantenendo il mix originale
-:: > Virtual Height 5.1.2: Aggiunge 2 canali "height" simulati per effetto Atmos verticale
-:: > Phantom Atmos 7.1.2: Simula un mix completo con surround posteriore + height
-:: --------------------------------------------------------------------------------------------
-::
-:: La normalizzazione finale (LOUDNORM) può essere abilitata o disabilitata:
-:: - ON  = Uniforma il volume tra film diversi (consigliato per playlist)
-:: - OFF = Mantiene dinamica piena, utile per film d'azione o uso cinema
-::
-:: Codec audio finale: EAC3 a 384k, 640k o 768k a seconda del preset.
-::
-:: Tutti gli script mantengono il video e i sottotitoli originali.
-::
-:: Compatibilità consigliata: NVIDIA Shield, Plex, VLC, lettori Dolby Digital+
-::
-:: Script nerd-approved. Per uso personale e divulgazione tra amanti del buon audio.
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Gli script qui presenti elaborano l'audio multicanale 5.1 per migliorarne:
+- La CHIAREZZA DEI DIALOGHI (filtri speechnorm, equalizer, compressori)
+- L'IMMERSIONE (stereowiden, echo, phaser, surround migliorato)
+- L'EFFETTO VERTICALE (Virtual Height 5.1.2 e Phantom Atmos 7.1.2 simulano speaker alti)
+- La GESTIONE DEI BASSI (LFE migliorato con equalizer e asubboost)
+
+Ogni versione ha una funzione specifica:
+
+> Clearvoice 5.1: Potenzia i dialoghi mantenendo il mix originale
+> Virtual Height 5.1.2: Aggiunge 2 canali "height" simulati per effetto Atmos verticale
+> Phantom Atmos 7.1.2: Simula un mix completo con surround posteriore + height
+
+La normalizzazione finale (LOUDNORM) può essere abilitata o disabilitata:
+- ON  = Uniforma il volume tra film diversi (consigliato per playlist)
+- OFF = Mantiene dinamica piena, utile per film d'azione o uso cinema
+
+Codec audio finale: EAC3 a 384k, 640k o 768k a seconda del preset.
+
+Tutti gli script mantengono il video e i sottotitoli originali.
+
+Compatibilità consigliata: NVIDIA Shield, Plex, VLC, lettori Dolby Digital+
+
+Script nerd-approved. Per uso personale e divulgazione tra amanti del buon audio.
 
 NB. Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda video ARC o
     Radeon il parametro -haccel cuda va sostituito con -hwaccel dxva2 per AMD o -hwaccel qsv
@@ -35,9 +31,8 @@ NB. Questi script sono ottimizzati per HW NVIDIA, in caso si possieda una scheda
 PS. Questi script sono ottimizzati per Windows, necessario installare ffmpeg sul Sistema e
     preferibile l'inserimento nelle variabili di ambiente (Environment).
 
-:: --------------------------------------------------------------------------------------------
+
 :: === Clearvoice 5.1 (Sidechain) ===
-:: --------------------------------------------------------------------------------------------
 
 	:: Clearvoice 5.1 (Enhanced) singolo file
 
@@ -138,9 +133,8 @@ ffmpeg -hwaccel cuda -i "!INPUT!" -filter_complex "
 " -map 0:v -map "[a_out_limited]" -map 0:s? -c:v copy -c:a eac3 -b:a 384k -c:s copy -metadata:s:a:0 language=ita -metadata:s:a:0 title="Clearvoice 5.1
 
 
-:: --------------------------------------------------------------------------------------------
+
 :: === Virtual Height 5.1.2 (Simulazione verticale Atmos) ===
-:: --------------------------------------------------------------------------------------------
 
 	:: Virtual Height 5.1.2 singolo file
 
@@ -206,9 +200,8 @@ for %%F in (*.mkv) do (
 endlocal
 
 
-:: --------------------------------------------------------------------------------------------
+
 :: === VERSIONE 3: Phantom Atmos 7.1.2 (Simulazione completa Atmos) ===
-:: --------------------------------------------------------------------------------------------
 
 	:: Phantom Atmos 7.1.2 singolo file
 
@@ -276,5 +269,3 @@ for %%F in (*.mkv) do (
 )
 
 endlocal
-
-:: --------------------------------------------------------------------------------------------
