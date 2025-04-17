@@ -81,4 +81,4 @@ Se ti piacciono, migliorali e condividi!
 
 ---
 
-**Buona visione e buon ascolto! 🎬🔉**
+**Buon ascolto! 🎬🔉**
