@@ -62,7 +62,7 @@ Benvenuto! Questo repository contiene **script audio avanzati basati su FFmpeg**
 
 Ogni script supporta:
 - Attivazione/disattivazione `loudnorm` (`ENABLE_LOUDNORM=1`)
-- Impostazione bitrate (`BITRATE_AUDIO=448k` o `640k`)
+- Impostazione bitrate (`BITRATE_AUDIO=384k`-`720k`)
 - Output automatico con suffisso coerente
 
 ---
