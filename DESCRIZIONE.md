@@ -1,6 +1,6 @@
 # 🎧 Audio Enhancement Scripts – FFmpeg Nerd Edition
 
-Una collezione di script FFmpeg per l'elaborazione audio multicanale 5.1 avanzata, progettata per migliorare, per simulare o enfatizzare: 
+Ovvero una collezione di pipeline avanzate FFmpeg per l'elaborazione audio multicanale, progettata per migliorare, per simulare o enfatizzare: 
 
 **chiarezza dei dialoghi sidechain**
 **spazialità surround Atmos 7.1.2** 
