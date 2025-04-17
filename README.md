@@ -67,7 +67,7 @@ Ogni script supporta:
 
 ---
 
-## 🧠 Nerd Info
+## 🧠 Informazioni
 
 Questi preset sono pensati per **preservare la dinamica**, migliorare la **comprensione vocale**, e offrire **spazialità 3D compatibile con soundbar moderne** (LG, Samsung, Sony, ecc.).  
 Ideali per contenuti in italiano, anche con mix non perfetti (es. film anni 2000, serie italiane, ecc.).
