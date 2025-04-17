@@ -1,20 +1,4 @@
 #!/bin/bash
-# Script Bash per Clearvoice 5.1 Enhanced – Singolo file
-# Migliora la chiarezza dei dialoghi e la spazialità del surround
-# Usa FFmpeg con filtri personalizzati per l'elaborazione audio multicanale
-
-#!/bin/bash
-# =============================================================================
-# SCRIPT: Super commentato – singolo file per Clearvoice 5.1
-# =============================================================================
-# ✔️ Audio Enhancement per film/serie TV in ambiente Home Theater
-# ✔️ Ottimizzazione di: dialoghi, surround, height e/o subwoofer
-# ✔️ Uso ideale dopo encoding con HandBrake o ffmediamaster
-# ✔️ Richiede: FFmpeg (con supporto CUDA), input 5.1 canali
-# ✔️ Uscita: EAC3 multicanale (384k / 640k / 768k)
-# -----------------------------------------------------------------------------
-
-#!/bin/bash
 set -e
 
 # ==========================================================================
@@ -23,7 +7,7 @@ set -e
 # ==========================================================================
 
 INPUT="MioVideo.mkv"
-SUFFIX="-clearvoice0"
+SUFFIX="-clearvoice51"
 EXT="${INPUT##*.}"
 NAMEBASE="${INPUT%.*}"
 OUTPUT="${NAMEBASE}${SUFFIX}.${EXT}"
