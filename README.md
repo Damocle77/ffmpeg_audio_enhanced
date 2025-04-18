@@ -102,7 +102,28 @@ Questo script analizza l’audio e decide il da farsi:
 - `stereowiden`, `aecho`, `aphaser`
 
 ### 🚀 Codifica
-- Supporto CUDA (`-hwaccel cuda`) se disponibile  
+
+Lo script utilizza di default `-hwaccel cuda` per sfruttare l'accelerazione hardware **NVIDIA CUDA** durante la decodifica video.  
+Tuttavia, puoi modificare questo parametro in base alla tua configurazione hardware.
+
+### Altre opzioni di accelerazione supportate da FFmpeg
+
+| Accelerazione   | Parametro FFmpeg           | Note                                                        |
+|-----------------|----------------------------|-------------------------------------------------------------|
+| **CUDA**        | `-hwaccel cuda`            | Solo per GPU NVIDIA. È il default negli script.             |
+| **DXVA2**       | `-hwaccel dxva2`           | Per GPU AMD/NVIDIA su Windows.                              |
+| **D3D11VA**     | `-hwaccel d3d11va`         | Alternativa moderna a DXVA2 su Windows 10+.                 |
+| **VAAPI**       | `-hwaccel vaapi`           | Per GPU Intel/AMD su Linux (richiede setup extra).          |
+
+> 🔧 **Nota:** puoi modificare la riga `ffmpeg` negli script per sostituire `-hwaccel cuda` con l’opzione più adatta al tuo sistema.
+
+#### Esempi
+
+Su Windows con GPU AMD:
+
+```bash
+ffmpeg -hwaccel dxva2 -i input.mkv ...
+
 - Output in AC3/EAC3
 
 ### 🏷️ Output naming
