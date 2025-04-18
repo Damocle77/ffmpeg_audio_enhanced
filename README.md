@@ -79,7 +79,7 @@ L’intelligenza artificiale... fatta a bash.
 ./repair_surround_multi.sh
 ```
 
-Puoi personalizzare input/output e parametri direttamente nello script o tramite variabili d’ambiente.
+`Puoi personalizzare input/output e parametri direttamente nello script o tramite variabili d’ambiente`
 
 ---
 
