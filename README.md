@@ -39,7 +39,7 @@ Qui trovi un "arsenale" di pipeline FFmpeg pensate per tirare fuori il meglio da
 
 ---
 
-## 🧠 Repair Surround Adaptive (Auto Surround)
+## 🧠 **Repair Surround Adaptive (Auto Surround)**
 
 ### 🛠️ `repair_surround_single.sh` `repair_surround_multi.sh`
 
