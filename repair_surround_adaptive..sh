@@ -6,6 +6,7 @@
 #     - Stereo ➜ Clearvoice 5.1
 #     - Fake 5.1 ➜ Repair Surround Adaptive
 #     - Reale 5.1 ➜ Clearvoice + notifica
+# Autore: D@mocle77
 # ==============================================================================
 
 INPUT="$1"
@@ -40,7 +41,7 @@ set -e
 INPUT="nomefile.mkv"
 
 # === Suffisso per il file di output ===
-SUFFIX="-clearvoiced51"
+SUFFIX="-repairauto51"
 
 # === Costruzione automatica del nome di output ===
 BASENAME="${INPUT%.*}"
