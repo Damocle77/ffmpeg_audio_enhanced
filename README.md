@@ -145,8 +145,8 @@ Tutti gli script supportano:
 
 ## 🎙️ Frequenze della Voce Umana
 
-| Tipo di Voce     | Gamma Frequenze               |
-|------------------|-------------------------------|
+| Tipo di Voce       | Gamma Frequenze               |
+|--------------------|-------------------------------|
 | 🧔 Uomo parlato   | 85 – 180 Hz                   |
 | 👩 Donna parlato  | 165 – 255 Hz                  |
 | 🧒 Bambino        | 250 – 400 Hz                  |
