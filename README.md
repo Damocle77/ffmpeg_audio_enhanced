@@ -1,4 +1,3 @@
-
 # 🎧 Pipeline FFmpeg per Soundbar e Home Theater
 
 Benvenuto amico Nerd del suono digitale! Questo repository contiene script audio avanzati basati su FFmpeg per ottimizzare film e serie TV in 5.1 e per simulare (se non disponibili) 5.1.2 e 7.1.2, migliorando, nel contempo, chiarezza dei dialoghi ed enfatizzando la spazialità surround e canali height per sistemi audio multicanale.
@@ -60,14 +59,32 @@ Benvenuto amico Nerd del suono digitale! Questo repository contiene script audio
 ./phantom712_multi.sh
 ```
 
-**## repair_surround_adaptive.sh**
-'''bash
-./repair_surround_adaptive.sh
-'''
-
 Modifica il nome del file in input direttamente nello script oppure tramite variabili d'ambiente.
 
 ---
+## Dettaglio comandi `repair_surround_adaptive.sh`
+
+Lo script `repair_surround_adaptive.sh` è una pipeline intelligente che analizza automaticamente il layout audio del file in ingresso e applica miglioramenti condizionali in base alla qualità rilevata. Di seguito una panoramica dei passaggi principali:
+
+- 📥 **Input file**: accetta file `.mkv`, `.mp4`, ecc.
+- 🔍 **Analisi del layout**: rileva se il file è:
+  - Stereo ➜ converte in 5.1 simulato + Clearvoice
+  - 5.1 sospetto (surround simulato) ➜ applica Clearvoice + migliora i canali posteriori
+  - 5.1 reale ➜ notifica e applica solo Clearvoice
+- 🗣️ **Filtro Clearvoice**:
+  - `speechnorm` + `equalizer` + `highpass`/`lowpass` + `dynaudnorm` per migliorare la chiarezza dei dialoghi.
+- 🔊 **Espansione surround (se necessario)**:
+  - Utilizzo di `stereowiden`, `aecho`, `aphaser` per arricchire i canali BL/BR.
+- 🧠 **Decodifica e ricodifica**:
+  - FFmpeg con supporto `hwaccel cuda` se disponibile
+  - Codifica in `EAC3` a 640kbit
+- 📦 **Output**:
+  - Aggiunge un suffisso al nome file in base al tipo di miglioramento:
+    - `-clearvoice51.mkv`
+    - `-repairupmix.mkv`
+    - `-enhanced.mkv`
+
+⚠️ Se viene rilevato un audio già ottimizzato (5.1 reale), viene generato un messaggio informativo e lo script si limita al solo Clearvoice.
 
 ## 🔄 Personalizzazioni
 
