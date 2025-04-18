@@ -69,7 +69,7 @@ L’intelligenza artificiale... fatta a bash.
 ./clearvoice_single.sh
 ./height512_single.sh
 ./phantom712_single.sh
-./repair_surround_adaptive.sh "film.mkv"
+./repair_surround_adaptive.sh
 ```
 
 ### 📁 Modalità Batch (multi-file)
