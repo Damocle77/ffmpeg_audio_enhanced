@@ -101,6 +101,15 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 
 ---
 
+## ✅ Repair Surround Adaptive (Auto Surround)
+
+✔️ **Rilevamento automatico layout** (stereo vs 5.1)  
+✔️ **Stereo → 5.1** con Clearvoice: dialoghi potenziati e surround virtuale  
+✔️ **5.1 → Enhancer**: speechnorm, equalizer e echo per surround BL/BR  
+✔️ Layout **5.1 completo** → `join=inputs=6:channel_layout=5.1`  
+✔️ **Loudnorm ON/OFF** via variabile `ENABLE_LOUDNORM`  
+✔️ Bitrate audio: **384k** (configurabile con `BITRATE_AUDIO`)  
+
 ## 🧩 Compatibilità & Congruenza
 
 | Sezione               | Bitrate        | Loudnorm   | Canali Simulati | Note                          |
@@ -110,6 +119,33 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 | **Phantom Atmos 7.1.2** | 448k / 768k    | ✅ ON/OFF  | Height + Rear    | Massima immersione            |
 
 ---
+
+- 🎛️ FFmpeg (versione full, consigliata da [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) da inserire nelle variabili di ambiente:
+
+  - **Windows (PowerShell):**
+    1. Scarica e decomprimi il pacchetto in `C:\ffmpeg`.
+    2. Apri PowerShell come amministratore e lancia:
+       ```powershell
+       [Environment]::SetEnvironmentVariable('FFMPEG_HOME','C:\ffmpeg','Machine')
+       $old = [Environment]::GetEnvironmentVariable('Path','Machine')
+       [Environment]::SetEnvironmentVariable('Path', "$old;C:\ffmpeg\bin", 'Machine')
+       ```
+    3. Chiudi e riapri il terminale:  
+       ```powershell
+       ffmpeg -version
+       ```
+  - **Linux/macOS (bash/zsh):**
+    1. Scarica e decomprimi in `~/ffmpeg`.
+    2. Aggiungi al tuo `~/.bashrc` o `~/.zshrc`:
+       ```bash
+       export FFMPEG_HOME="$HOME/ffmpeg"
+       export PATH="$FFMPEG_HOME/bin:$PATH"
+       ```
+    3. Ricarica il profilo:
+       ```bash
+       source ~/.bashrc   # o `source ~/.zshrc`
+       ffmpeg -version
+       ```
 
 📁 Ogni pipeline è pronta per bash processing o batch su Windows (con Gitbash, CGwin o WSL) ed è compatibile con:
 
