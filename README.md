@@ -1,7 +1,7 @@
 # 🎧 Pipeline FFmpeg per Soundbar e Home Theater
 
-Benvenuto amico Nerd di avventure audio!  
-Qui trovi un "arsenale£ di pipeline FFmpeg pensate per tirare fuori il meglio dai tuoi film e serie TV in 5.1, anche quando il mix lascia a desiderare.  
+Benvenuto amico di avventure audio!  
+Qui trovi un "arsenale" di pipeline FFmpeg pensate per tirare fuori il meglio dai tuoi film e serie TV in 5.1, anche quando il mix lascia a desiderare.  
 Simuliamo l’impossibile, amplifichiamo il dialogo e allarghiamo il surround... perché ogni bit conta!
 
 ---
