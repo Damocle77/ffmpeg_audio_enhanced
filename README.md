@@ -55,7 +55,7 @@ L’intelligenza artificiale... fatta a bash.
 
 ## ⚙️ **Requisiti**
 
-- 🎛️ FFmpeg (versione full, consigliata da [gyan.dev](https://www.gyan.dev/ffmpeg/builds/))
+- 🎛️ FFmpeg (versione full, consigliata da [gyan.dev](https://www.gyan.dev/ffmpeg/builds/)
 - 🖥️ Linux, macOS, o Windows con Git Bash / Cygwin / WSL
 - 🎥 File con audio 5.1 in AC3/EAC3 (ma anche stereo per conversione)
 
