@@ -69,7 +69,7 @@ L’intelligenza artificiale... fatta a bash.
 ./clearvoice_single.sh
 ./height512_single.sh
 ./phantom712_single.sh
-./repair_surround_adaptive.sh
+./repair_surround_single.sh
 ```
 
 ### 📁 **Modalità Batch (multi-file)**
@@ -145,9 +145,9 @@ ffmpeg -hwaccel vaapi -hwaccel_device /dev/dri/renderD128 -i input.mkv ...
 
 ## 🏷️ **Output naming**
 
-- `-repairauto51.mkv`
+- `-repairadaptive.mkv`
+- `-sideheight712.mkv` 
 - `-clearvoice51.mkv`  
-- `-sideheight712.mkv`  
 - `-height512.mkv`
 
 ---
