@@ -67,7 +67,19 @@ Ogni script supporta:
 
 ---
 
-## 🧠 Informazioni
+## 🎙️ Gamma di Frequenze della Voce Umana
+
+| Tipo di Voce                                      | Gamma Approssimativa     |
+|--------------------------------------------------|---------------------------|
+| 🧔 Parlato (uomo)                                 | 85 Hz – 180 Hz            |
+| 👩 Parlato (donna)                                | 165 Hz – 255 Hz           |
+| 🧒 Parlato (bambini)                              | 250 Hz – 400 Hz           |
+| 📈 Contenuto armonico utile per l’intelligibilità | **300 Hz – 3400 Hz**      |
+| 🔊 Sibili e consonanti fricative (`s`, `f`, ecc.) | **4 kHz – 8 kHz**         |
+
+> 📌 Queste frequenze sono fondamentali per comprendere come ottimizzare l’equalizzazione in base alla voce e al tipo di contenuto (film, serie TV, podcast, doppiaggio, ecc.).
+
+## 🔊 Caratteristiche della Voce Italiana
 
 L’italiano ha suoni vocalici ben marcati (`A`, `E`, `I`, `O`, `U`) e consonanti spesso plosive (`P`, `T`, `C`).  
 Per questo motivo, l’intelligibilità della voce italiana dipende molto da:
