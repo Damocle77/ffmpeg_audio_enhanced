@@ -205,7 +205,7 @@ Nessun DRM, solo DIY.
 
 ---
 
-## 🎬 **Buona visione (e ascolto)!**
+## 🎬 **Buona visione (e soprattutto ascolto)!**
 
 **Dal un Nerd ai Nerd: che il Surround sia con voi.**  
 – Sandro (aka **D@mocle77**)
