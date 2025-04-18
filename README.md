@@ -1,6 +1,6 @@
 # 🎧 Pipeline FFmpeg per Soundbar e Home Theater
 
-Benvenuto! Questo repository contiene **script audio avanzati basati su FFmpeg** per ottimizzare film e serie TV in 5.1, 5.1.2 e 7.1.2, migliorando **chiarezza dei dialoghi, spazialità surround** e **simulazione canali height** per sistemi compatibili con Dolby Atmos e simili.
+Benvenuto amico nerd del suono digitale! Questo repository contiene **script audio avanzati basati su FFmpeg** per ottimizzare film e serie TV in 5.1, 5.1.2 e 7.1.2, migliorando **chiarezza dei dialoghi, spazialità surround** e **simulando canali height** per sistemi audio multicanale (5.1.2-7.1.2-3Dsound).
 
 ---
 
@@ -8,7 +8,7 @@ Benvenuto! Questo repository contiene **script audio avanzati basati su FFmpeg**
 
 ### 🔊 Clearvoice 5.1 (Enhanced)
 - ✅ Ottimizzazione dialoghi sul canale centrale
-- ✅ Rear spazializzati con echo e delay realistici
+- ✅ Rear "spazializzati" con echo e delay realistici
 - ✅ Volume bilanciato con loudnorm opzionale
 - 📦 `clearvoice_single.sh` e `clearvoice_multi.sh`
 
@@ -61,16 +61,35 @@ Benvenuto! Questo repository contiene **script audio avanzati basati su FFmpeg**
 ## 🔄 Personalizzazioni
 
 Ogni script supporta:
-- Attivazione/disattivazione `loudnorm` (`ENABLE_LOUDNORM=1`)
-- Impostazione bitrate (`BITRATE_AUDIO=384k`-`720k`)
+- Attivazione/disattivazione `loudnorm` (`ENABLE_LOUDNORM=1/0`)
+- Impostazione bitrate (`BITRATE_AUDIO=384k-720k`)
 - Output automatico con suffisso coerente
 
 ---
 
 ## 🧠 Informazioni
 
-Questi preset sono pensati per **preservare la dinamica**, migliorare la **comprensione vocale**, e offrire **spazialità 3D compatibile con soundbar moderne** (LG, Samsung, Sony, ecc.).  
-Ideali per contenuti in italiano, anche con mix non perfetti (es. film anni 2000, serie italiane, ecc.).
+L’italiano ha suoni vocalici ben marcati (`A`, `E`, `I`, `O`, `U`) e consonanti spesso plosive (`P`, `T`, `C`).  
+Per questo motivo, l’intelligibilità della voce italiana dipende molto da:
+
+- 🎯 **500 Hz – 3.5 kHz**  
+  Frequenze fondamentali per la **chiarezza** e **comprensione delle parole**.
+  
+- ✨ **5 – 8 kHz**  
+  Gamma utile per migliorare la **nitidezza dei sibili** e delle consonanti fricative (come `"s"`, `"sc"`, `"z"`).
+
+- 💪 **100 – 300 Hz**  
+  Frequenze che danno **corpo**, **presenza** e una sensazione di **voce piena**.
+
+---
+
+## 🎧 Preset Audio Ottimizzati
+
+Questi preset sono pensati ed ideati per:
+
+- ✅ **Preservare la dinamica** naturale della voce
+- 🗣️ **Migliorare la comprensione vocale**, anche in ambienti rumorosi
+- 🌐 **spazialità 3D compatibile** con amplificatori multicanali o soundbar moderne e non
 
 ---
 
