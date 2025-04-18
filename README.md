@@ -41,7 +41,7 @@ Qui trovi un "arsenale" di pipeline FFmpeg pensate per tirare fuori il meglio da
 
 ## 🧠 **Script Intelligente Extra (Repair)**
 
-### 🛠️ `repair_surround_adaptive.sh`
+### 🛠️ `repair_surround_single.sh` `repair_surround_multi.sh`
 
 L’intelligenza artificiale... fatta a bash.
 
