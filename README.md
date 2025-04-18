@@ -145,10 +145,10 @@ ffmpeg -hwaccel vaapi -hwaccel_device /dev/dri/renderD128 -i input.mkv ...
 
 ## 🏷️ **Output naming**
 
+- `-repairauto51.mkv`
 - `-clearvoice51.mkv`  
 - `-repairupmix.mkv`  
 - `-enhanced.mkv`
-- `-repairauto51`
 
 ---
 
