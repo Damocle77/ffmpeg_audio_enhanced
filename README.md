@@ -147,8 +147,8 @@ ffmpeg -hwaccel vaapi -hwaccel_device /dev/dri/renderD128 -i input.mkv ...
 
 - `-repairauto51.mkv`
 - `-clearvoice51.mkv`  
-- `-repairupmix.mkv`  
-- `-enhanced.mkv`
+- `-sideheight712.mkv`  
+- `-height512.mkv`
 
 ---
 
