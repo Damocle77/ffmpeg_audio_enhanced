@@ -1,6 +1,6 @@
 # 🎧 Pipeline FFmpeg per Soundbar e Home Theater
 
-Benvenuto amico Nerd del suono digitale! Questo repository contiene **script audio avanzati basati su FFmpeg** per ottimizzare film e serie TV in 5.1 e per simulare (se non disponibili) 5.1.2 e 7.1.2, migliorando, nel contempo, **chiarezza dei dialoghi** ed enfatizzando o simulando **spazialità surround** e **canali height** per sistemi audio multicanale.
+Benvenuto amico Nerd del suono digitale! Questo repository contiene **script audio avanzati basati su FFmpeg** per ottimizzare film e serie TV in 5.1 e per simulare (se non disponibili) 5.1.2 e 7.1.2, migliorando, nel contempo, **chiarezza dei dialoghi** ed enfatizzando la **spazialità surround** e **canali height** per sistemi audio multicanale.
 
 ---
 
