@@ -201,7 +201,7 @@ La lingua italiana presenta:
 
 Uso personale, studio, sperimentazione.  
 Miglioralo, remixalo, condividilo.  
-Nessun DRM, solo D-I-Y.
+Nessun DRM, solo DIY.
 
 ---
 
