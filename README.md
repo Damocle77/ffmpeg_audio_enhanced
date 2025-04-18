@@ -83,7 +83,7 @@ Puoi personalizzare input/output e parametri direttamente nello script o tramite
 
 ---
 
-## 🔍 **Focus su `repair_surround_adaptive.sh`**
+### 🔍 **Focus su `repair_surround_adaptive.sh`**
 
 Questo script analizza l’audio e decide il da farsi:
 
