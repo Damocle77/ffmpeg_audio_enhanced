@@ -56,7 +56,7 @@ Tutti gli script includono una variabile `ENABLE_LOUDNORM`:
 
 ## ✅ Compatibilità
 
-- Funziona perfettamente con: **NVIDIA Shield**, **Plex**, **Kodi**, **VLC**, **lettori HDMI ARC**, **TV moderne**, **soundbar LG / Samsung / Sonos**
+- Funziona perfettamente con: **NVIDIA Shield**, **Plex**, **Kodi**, **VLC**, **lettori HDMI ARC**, **TV moderne**, **Soundbar**
 - Compatibile anche con proiettori e downmix stereo automatico
 
 ---
