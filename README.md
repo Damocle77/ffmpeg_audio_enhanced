@@ -41,8 +41,6 @@ Qui trovi un "arsenale" di pipeline FFmpeg pensate per tirare fuori il meglio da
 
 ## 🧠 **Repair Surround Adaptive (Auto Surround)**
 
-### 🛠️ `repair_surround_single.sh` `repair_surround_multi.sh`
-
 L’intelligenza artificiale... fatta a bash.
 
 - 🔍 Rileva automaticamente se il file è stereo, 5.1 simulato o reale
