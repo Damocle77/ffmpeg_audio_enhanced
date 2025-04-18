@@ -112,4 +112,4 @@ Se ti piacciono, migliorali e condividi!
 
 ---
 
-**Buon ascolto! 🎬🔉**
+**Buon ascolto! Da Sandro (AKA D@mocle77) 🎬🔉**
