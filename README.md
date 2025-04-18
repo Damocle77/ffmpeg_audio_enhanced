@@ -168,5 +168,5 @@ Nessun DRM, solo D-I-Y.
 
 ## 🎬 Buona visione (e ascolto)!
 
-**Dal nerd al nerd: che il surround sia con voi.**  
+**Dal un Nerd ai Nerd: che il Surround sia con voi.**  
 – Sandro (aka **D@mocle77**)
