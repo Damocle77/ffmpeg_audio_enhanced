@@ -39,7 +39,7 @@ Qui trovi un "arsenale" di pipeline FFmpeg pensate per tirare fuori il meglio da
 
 ---
 
-## 🧠 **Repair Surround Adaptive (Auto Surround)**
+### 🧠 **Repair Surround Adaptive (Auto Surround)**
 
 L’intelligenza artificiale... fatta a bash.
 
@@ -83,7 +83,7 @@ Puoi personalizzare input/output e parametri direttamente nello script o tramite
 
 ---
 
-## 🔍 **Focus su `repair_surround_adaptive.sh`**
+### 🔍 **Focus su `repair_surround_adaptive.sh`**
 
 Questo script analizza l’audio e decide il da farsi:
 
