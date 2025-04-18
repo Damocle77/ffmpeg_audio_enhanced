@@ -137,7 +137,7 @@ ffmpeg -hwaccel vaapi -hwaccel_device /dev/dri/renderD128 -i input.mkv ...
 ```
 
 **Output finale:**
-- Codifica in `AC3` o `EAC3` a bitrate configurabile (da 320K a 720K)
+- Codifica in `AC3` o `EAC3` a bitrate configurabile `(da 320K a 720K)`
 
 ---
 
