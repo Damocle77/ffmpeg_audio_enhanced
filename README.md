@@ -112,4 +112,6 @@ Se ti piacciono, migliorali e condividi!
 
 ---
 
-**Buon ascolto! Da Sandro (AKA D@mocle77) 🎬🔉**
+**Buon ascolto! 🎬🔉 Da un nerd ai fratelli di bit.**  
+**Che il surround sia con voi.**  
+– *Sandro (AKA D@mocle77)*
