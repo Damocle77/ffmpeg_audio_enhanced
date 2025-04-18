@@ -29,7 +29,7 @@ Benvenuto amico nerd del suono digitale! Questo repository contiene **script aud
 ## ⚙️ Requisiti
 
 - 🧠 FFmpeg (versione avanzata, es. da [gyan.dev](https://www.gyan.dev/ffmpeg/builds/))
-- 💻 Ambiente Linux o Windows con **Git Bash** o **Cygwin**
+- 💻 Ambiente Linux o Windows con **Git Bash** o **Cygwin** o **WSL**
 - 🎧 File sorgente con traccia audio 5.1 (AC3/EAC3)
 
 ---
