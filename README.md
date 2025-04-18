@@ -57,7 +57,7 @@ L’intelligenza artificiale... fatta a bash.
 
 - 🎛️ **FFmpeg** (versione full, consigliata da [gyan.dev](https://www.gyan.dev/ffmpeg/))
 - 🖥️ Linux, macOS, o Windows con Git Bash / Cygwin / WSL
-- 🎥 File con audio 5.1 in AC3/EAC3 (ma anche stereo per conversione) fino a 720kbps
+- 🎥 File con audio 5.1 in AC3/EAC3 (ma anche stereo per conversione)
 
 ---
 
@@ -103,7 +103,7 @@ Questo script analizza l’audio e decide il da farsi:
 
 ### 🚀 Codifica
 - Supporto CUDA (`-hwaccel cuda`) se disponibile  
-- Output in AC3/EAC3 fino a 640kbit/s
+- Output in AC3/EAC3
 
 ### 🏷️ Output naming
 - `-clearvoice51.mkv`  
