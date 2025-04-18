@@ -3,10 +3,10 @@
 Ovvero una collezione di pipeline avanzate FFmpeg per l'elaborazione audio multicanale, progettata per migliorare, per simulare o enfatizzare: 
 
 **chiarezza dei dialoghi sidechain**
-**spazialità surround Atmos 7.1.2** 
-**verticalità height Atmos 5.1.2**,
+**spazialità surround 7.1.2** 
+**verticalità height 5.1.2**,
  
- mantenendo compatibilità massima con dispositivi comuni (TV, soundbar, lettori, Plex, Shield, ecc.).
+ mantenendo compatibilità massima con dispositivi comuni (TV, Soundbar, Lettori da tavolo, ecc.).
 
 ---
 
@@ -111,13 +111,13 @@ Condivisibili liberamente con altri nerd dell'audio e appassionati di home cinem
 
 ---
 
-📁 Ogni pipeline è pronta per batch processing su Windows `.cmd` ed è compatibile con:
+📁 Ogni pipeline è pronta per bash processing o batch su Windows (con Gitbash, CGwin o WSL) ed è compatibile con:
 
-- 🎬 File `.mkv`
+- 🎬 File `.mkv, .mp4`
 - 🔊 Input audio 5.1
 - 🧠 Ottimizzazione per lingua **italiana**
 - 🎛️ Personalizzazione: bitrate, loudnorm, nomi file
 
 ---
 
-💡 *Progetto pensato per ottenere il massimo da soundbar, AVR, o set 5.1.2 reali simulando contenuti spatial anche dove non presenti.*
+💡 *Progetto pensato per ottenere il massimo da Soundbar, AVR 5.1, o set 5.1.2 reali simulando contenuti spatial anche dove non presenti.*
